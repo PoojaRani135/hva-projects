@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fff8f2;
+  background-color: rgb(105, 44, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .recipe-card {
-  background: #ffffff;
+  background: rgb(255, 223, 163);
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 20px;
