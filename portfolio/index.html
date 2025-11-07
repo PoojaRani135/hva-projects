@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+
+    <article class="card" aria-label="Personal bio card">
+      <header class="card__header">
+        <div class="avatar" id="avatar" aria-hidden="true"></div>
+        <div>
+          <h1 class="name" id="name">Pooja Rani</h1>
+          <p class="role">Aspiring Software Engineer · CSE (2026)</p>
+        </div>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span aria-hidden="true">🌓</span>
+        </button>
+      </header>
+
+      <section class="about">
+        <p id="bio">
+          I love building tiny things that feel delightful—clean UIs, simple
+          automations, and tools that actually help people. Currently exploring
+          front-end, data analytics and a bit of AI for fun.
+        </p>
+      </section>
+
+      <section class="chips" aria-label="Skills and interests">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">React (learning)</span>
+        <span class="chip">Python</span>
+        <span class="chip">Data Viz</span>
+      </section>
+
+      <ul class="info" aria-label="Quick details">
+        <li>
+          <span>📍</span>
+          <strong>Location:</strong> Bangalore, India
+        </li>
+        <li>
+          <button class="linklike" id="emailBtn" title="Click to copy email">
+            <span>✉️</span>
+            <strong>Email:</strong> <span id="emailText">poojaranin135@gmail.com</span>
+          </button>
+        </li>
+        <li>
+          <span>🗓️</span>
+          <strong>Available for:</strong> Internships & projects
+        </li>
+      </ul>
+
+      <nav class="links" aria-label="Primary actions">
+        <a class="btn btn--ghost" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/pooja-rani-1305" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
